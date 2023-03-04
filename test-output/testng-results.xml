@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<<<<<Setting up Reports & Test is getting ready>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[<<<<<Setting Done - Test can be started>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[<<<<<Trying to start browser and getting Application ready>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[<<<<<Browser and Application is up and running>>>>>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-08T17:44:16 IST" name="Default suite" finished-at="2022-11-08T17:46:32 IST" duration-ms="135803">
+    <groups>
+    </groups>
+    <test started-at="2022-11-08T17:44:16 IST" name="Default test" finished-at="2022-11-08T17:46:32 IST" duration-ms="135803">
+      <class name="com.dfm.testcases.HomeAdmin_01">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:16 IST" name="setUpSuite" finished-at="2022-11-08T17:44:16 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<<<<<Setting up Reports & Test is getting ready>>>>>]]>
+            </line>
+            <line>
+              <![CDATA[<<<<<Setting Done - Test can be started>>>>>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:17 IST" name="setup" finished-at="2022-11-08T17:44:26 IST" duration-ms="9049" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<<<<<Trying to start browser and getting Application ready>>>>>]]>
+            </line>
+            <line>
+              <![CDATA[<<<<<Browser and Application is up and running>>>>>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginAction()[pri:1, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:26 IST" name="loginAction" finished-at="2022-11-08T17:44:26 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAction -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:26 IST" name="tearDownMethod" finished-at="2022-11-08T17:44:27 IST" duration-ms="1034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAction status=SUCCESS method=HomeAdmin_01.loginAction()[pri:1, instance:com.dfm.testcases.HomeAdmin_01@3646a422] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="createCustomer()[pri:2, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:27 IST" name="createCustomer" finished-at="2022-11-08T17:44:30 IST" duration-ms="3045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:30 IST" name="tearDownMethod" finished-at="2022-11-08T17:44:31 IST" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCustomer status=SUCCESS method=HomeAdmin_01.createCustomer()[pri:2, instance:com.dfm.testcases.HomeAdmin_01@3646a422] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="searchUserDetails()[pri:3, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:31 IST" name="searchUserDetails" finished-at="2022-11-08T17:44:41 IST" duration-ms="9665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserDetails -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:41 IST" name="tearDownMethod" finished-at="2022-11-08T17:44:41 IST" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchUserDetails status=SUCCESS method=HomeAdmin_01.searchUserDetails()[pri:3, instance:com.dfm.testcases.HomeAdmin_01@3646a422] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="addUserDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:44:41 IST" name="addUserDetails" data-provider="getUserData" finished-at="2022-11-08T17:45:03 IST" duration-ms="22048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin@automating1.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ADMIN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserDetails -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:45:03 IST" name="tearDownMethod" finished-at="2022-11-08T17:45:03 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addUserDetails status=SUCCESS method=HomeAdmin_01.addUserDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.dfm.testcases.HomeAdmin_01@3646a422] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="checkNewUserLoginAndLogout(java.lang.String,java.lang.String)[pri:5, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:45:04 IST" name="checkNewUserLoginAndLogout" data-provider="getNewlyUserCreatedData" finished-at="2022-11-08T17:46:13 IST" duration-ms="69374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNewUserLoginAndLogout -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:46:13 IST" name="tearDownMethod" finished-at="2022-11-08T17:46:15 IST" duration-ms="1979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkNewUserLoginAndLogout status=SUCCESS method=HomeAdmin_01.checkNewUserLoginAndLogout(java.lang.String,java.lang.String)[pri:5, instance:com.dfm.testcases.HomeAdmin_01@3646a422] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="addProject()[pri:6, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:46:15 IST" name="addProject" finished-at="2022-11-08T17:46:32 IST" duration-ms="17050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProject -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:46:32 IST" name="tearDownMethod" finished-at="2022-11-08T17:46:32 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProject status=SUCCESS method=HomeAdmin_01.addProject()[pri:6, instance:com.dfm.testcases.HomeAdmin_01@3646a422] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dfm.testcases.HomeAdmin_01@3646a422]" started-at="2022-11-08T17:46:32 IST" name="tearDown" finished-at="2022-11-08T17:46:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dfm.testcases.HomeAdmin_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
